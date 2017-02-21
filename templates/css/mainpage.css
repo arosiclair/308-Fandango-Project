@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+.movieItem {
+  display: inline-block;
+}
+
+.moviePoster {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.movieTitle {
+  font-size: 20px;
+}
+
+.newsLink {
+  display: block;
+  font-size: 25px;
+}
