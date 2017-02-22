@@ -1,0 +1,167 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../css/main.css">
+        <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="../css/bootstrap.css">
+        
+        <!-- Page specific CSS links go here -->
+        <link rel="stylesheet" href="../css/header.css">
+        
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+		
+	 <div class="container">
+  <div class="panel-group" id="accountInfo">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accountInfo" href="#collapse1">BASIC INFORMATION</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse in">
+        <div class="panel-body">
+		 <form>
+		 <div class="row">
+		  <div class="col-sm-6">
+		   <label for="firstName">First Name</label><br>
+		   <input type="text" id="firstNameInput" class="form-control" >
+		  </div>
+		  <div class="col-sm-6">
+		   <label for="lastName">Last Name</label><br>
+		   <input type="text" id="lastNameInput" class="form-control" >
+		  </div>
+		 </div><br>
+		 
+		 <div class="row">
+		  <div class="col-sm-6">
+		   <label for="displayName">Display Name</label><br>
+		   <input type="text" id="displayNameInput" class="form-control">
+		  </div>
+		 </div>
+		 <br>
+		 <div class="row">
+		  <div class="col-sm-6">
+		   <a href="#"><button type="button" class="btn btn-primary">Save</button></a>
+		  </div>
+		 </div>
+		 </form>
+		 <!--
+		 <label for="firstName">First Name</label>
+		 <label for="lastName">Last Name</label>
+		 <br/>
+		 <input type="text" class="col-sm-2" id="firstNameInput" ></input>
+		 -->
+		</div>
+      </div>
+	</div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accountInfo" href="#collapse2">CHANGE EMAIL</a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body">
+		<form>
+		 <div class="row">
+		  <div class="col-sm-12">
+		   <div class="col-sm-6">
+		   <small id="currentEmail" class="form-text text-muted">Current Email</small><br>
+		   <label for="email">tester@gmail.com</label><br>
+		   <small id="newEmail" class="form-text text-muted">New Email</small><br>
+		   <input type="email" id="emailInput" class="form-control"><br>
+		   <small id="confirmEmail" class="form-text text-muted">Confirm Email</small><br>
+		   <input type="email" id="confirmEmailInput" class="form-control"><br>
+		   <a href="#"><button type="button" class="btn btn-primary">Save</button></a>
+		   </div>
+		  </div>
+		 </div>
+		</form>
+		</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accountInfo" href="#collapse3">CHANGE PASSWORD</a>
+        </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+        <div class="panel-body">
+		<form>
+		 <div class="row">
+		  <div class="col-sm-12">
+		   <p>Passwords must be at least six characters and no longer than ten</p>
+		  </div>
+		 </div>
+		 <div class="row">
+		  <div class="col-sm-6">
+		   <small id="currentPassword" class="form-text text-muted">Current Password</small>
+		  </div>
+		 </div>
+		 <div class="row">
+		  <div class="col-sm-6">
+		   <input type="password" id="passwordInput" class="form-control">
+		  </div>
+		  <div class="col-sm-6">
+		   <a href="#"><span>Forgot Password?</span></a>
+		  </div>
+		 </div>
+		 <div class="row">
+		  <div class="col-sm-6">
+		   <small id="newPassword" class="form-text text-muted">New Password</small>
+		  </div>
+		 </div>
+		<div class="row">
+		 <div class="col-sm-6">
+		  <input type="password" id="newPasswordInput" class="form-control">
+		 </div>
+		</div>
+		<div class="row">
+		 <div class="col-sm-6">
+		  <small id="confirmPasswordInput" class="form-text text-muted">Confirm Password</small>
+		 </div>
+		</div>
+		<div class="row">
+		 <div class="col-sm-6">
+		  <input type="password" id="confirmPasswordInput" class="form-control">
+		 </div>
+		</div>
+		<br>
+		<div class="row">
+		 <div class="col-sm-6">
+		 <a href="#"><button type="button" class="btn btn-primary">Save</button></a>
+		 </div>
+		</div>
+		</form>
+		</div>
+      </div>
+    </div>
+  </div> 
+</div>
+		
+		<!-- JQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <!-- Bootstrap -->
+        <script type="text/javascript" src="../js/bootstrap.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="../js/plugins.js"></script>
+        <script src="../js/main.js"></script>
+	</body>
+</html>
