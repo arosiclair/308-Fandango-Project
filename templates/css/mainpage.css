@@ -1,6 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
+#main-content {
+  padding-top: 50px;
+}
+
 .movieItem {
   display: inline-block;
 }
