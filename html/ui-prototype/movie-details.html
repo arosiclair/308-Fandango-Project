@@ -1,0 +1,109 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/site.css">
+        
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Baloo|Roboto+Condensed:700|Roboto" rel="stylesheet">
+        
+        <!-- Page specific CSS links go here -->
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/movie-details.css">
+    </head>
+    <body>
+      <!--[if lt IE 8]>
+          <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+
+      <!-- Add your site or application content here -->
+      <div id="header" class="container">
+      <a href="#" id="logo">Salsa</a>
+      <ul class="nav nav-pills">
+        <li>
+          <form action="#">
+            <input id="search-bar" type="text" placeholder="Search">
+          </form>
+        </li>
+        <li class="dropdown">
+          <a class="nav-btn dropdown-toggle" data-toggle="dropdown" href="#">Menu</a>
+          <ul class="dropdown-menu nav-dropdown">
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="actors.html">Actors</a></li>
+            <li><a href="news.html">News</a></li>
+          </ul>
+        </li>
+        <li><a class="nav-btn" href="#">Showtimes</a></li>
+        <li><a class="nav-btn" href="#">Login / Register</a></li>
+      </ul>
+      </div>
+      
+      <!-- Page Content -->
+      <div class="container">
+        <div class="row">
+         <!-- Poster, rating, etc. -->
+          <div class="col-sm-3">
+           <div class="thumbnail movie-thumbnail">
+            <img class="img-responsive movie-poster" src="img/lego-batman.jpg" alt="">
+            <div class="movie-text">
+              <h3 class="noMargin">Rating</h3>
+              <h3>Showtimes</h3>
+            </div>            
+           </div>            
+          </div>
+          <!-- About Movie -->
+          <div class="col-sm-9 noPadding">
+           <div class="well">
+             <h1 id="title">The LEGO Batman Movie</h1>
+              <h2>Synopsis</h2>
+              <p>Batman (voice of Will Arnett) defends Gotham City from criminals and supervillains while bonding with a young orphan (Michael Cera) he accidentally adopted -- who, of course, eventually becomes his sidekick Robin. This spin-off of The Lego Movie also features the voices of Rosario Dawson as Batgirl, Zach Galifianakis as the Joker, and Ralph Fiennes as Batman's loyal butler Alfred Pennyworth. Directed by Chris McKay (Robot Chicken). ~ Daniel Gelb, Rovi</p>
+              <h2>Trailer</h2>
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/rGQUKzSDhrg"></iframe>
+            </div>
+           </div>
+          </div>
+        </div>
+        <div class="row">
+         <div class="well">
+           <h2>Actors</h2>
+           <a href="#" class="thumbnail actor-thumbnail">
+              <img class="actor-portrait img-responsive noMargin" src="http://placehold.it/270x400" alt="">
+              <span class="actor-name">Actor Name</span>
+            </a>
+            <a href="#" class="thumbnail actor-thumbnail">
+              <img class="actor-portrait img-responsive noMargin" src="http://placehold.it/270x400" alt="">
+              <span class="actor-name">Actor Name</span>
+            </a>
+            <a href="#" class="thumbnail actor-thumbnail">
+              <img class="actor-portrait img-responsive noMargin" src="http://placehold.it/270x400" alt="">
+              <span class="actor-name">Actor Name</span>
+            </a>
+            <a href="#" class="thumbnail actor-thumbnail">
+              <img class="actor-portrait img-responsive noMargin" src="http://placehold.it/270x400" alt="">
+              <span class="actor-name">Actor Name</span>
+            </a>
+         </div>
+        </div>
+      </div>
+
+
+      <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+      <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+      <script src="js/plugins.js"></script>
+      <script src="js/main.js"></script>
+      <script src="js/bootstrap.js"></script>
+    </body>
+</html>
