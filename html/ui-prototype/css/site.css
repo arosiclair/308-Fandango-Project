@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  background-color: #FF0000;
+}
+
+
+#title-bg {
+  background-color: #F2C90C;
+}
+
+#title-div{
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #fff;
+  padding: 10px 15px;
+}
+
+#title {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #fff;
+  font-size: 40px;
+}
+
+h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.noMargin {
+  margin: 0!important;
+}
+
+.noPadding {
+  padding: 0!important;
+}
